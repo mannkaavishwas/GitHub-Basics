@@ -1,0 +1,44 @@
+GitHub
+
+Initialization
+git init --global user.name "name"
+git init --global user.email "mailID"
+git init --list // list things
+
+// clone
+git clone <https code>
+
+git status 
+--->> modified -- changed , unmodified-- unchanged, untracked --new files that git didnt track , staged -- ready to be commit
+changes ---> add ---> commit ---> push
+
+git add < file name > or . for all file changes
+git commit -m "some message to specify change"
+
+git push origin main ----> push files from main (local) to origin (online repo)
+git push -u origin main ----> -u for upstram to use git push without next 2 words
+
+
+git init
+git remote add origin <link>
+git remote -v // verify 
+git branch  // to know bRANCHES
+git branch -M main // rename branch to main eg- master ---> main
+git push origin main
+
+git checkout <branchName> // to change to navigate
+git checkout -b <new branch> // create and switch to new branch
+git branch -d <branch nam> 
+
+
+git diff <branch name> to track changes
+git merge < branch changes> merge 2 bRANCHES
+
+
+git pull origin main
+
+git reset < file name> for just git reset
+git reset HEAD~1
+git reset <hash>
+git reset --hard <hash>
+
